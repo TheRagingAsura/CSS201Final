@@ -8,16 +8,23 @@ header {
     height: 100px;
     width: 100%;
     background-color: black;
-}
-
-.nav_links {
+    display: flex;
 
 }
+
+
 
 .nav_links li{
+    display: inline-block;
+
+}
+
+
+
+.nav_links li a{
     text-decoration: none;
     list-style: none;
-    color: lightgray;
+    color: white;
 }
 
 .logo {

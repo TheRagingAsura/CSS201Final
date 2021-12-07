@@ -4,24 +4,22 @@ body {
     margin: 0;
 }
 
-.navbar {
-    height: 60px;
+header {
+    height: 100px;
     width: 100%;
     background-color: black;
-    position: relative;
-    padding: 0 142.5px;
 }
 
-.navcontainer{
-    list-style-type: none;
+.nav_links {
+
+}
+
+.nav_links li{
     text-decoration: none;
-    margin: auto;
-    color: white;
+    list-style: none;
+    color: lightgray;
 }
 
-.navcontainer li {
-    float: left;
-    display: block;
-    padding: 0 16px;
+.logo {
+    height: 30px;
 }
-

@@ -1,7 +1,6 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-
+@import url(https://fonts.googleapis.com);
+@import url(https://fonts.gstatic.com);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
 
 * {
 
@@ -13,14 +12,14 @@
 
 
 body {
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(36,36,36);
 }
 
 .container {
     display: flex;
     height: 30vw;
     max-height: 94px;
-    width: 100%;
+    width: 100wv;
     background-color: rgb(36, 36, 36);
     flex-direction: row;
     align-items: center;
@@ -29,7 +28,7 @@ body {
 
 .nav_links{
     list-style: none;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 .nav_links li {
@@ -40,65 +39,40 @@ body {
 .nav_links li a{
     text-decoration: none;
     color: white;
-    font-size: 32px;
-font-family: 'Open Sans' ;
+    font-size: 20px;
+    font-family: 'Open Sans' ;
 }
 
 .logo {
-    height: 10vh;
-    max-height: 60px;
+    height: 11vh;
+    max-height: 70px;
 
 }
 
 .goty {
-    padding-left: 1.5vw;
-    height: 20vh;
-    max-height: 60px;
+    padding-left: 1.1vw;
+    height: 95px;
+
+  }
+
+.signin {
+  background-color: rgba(196, 4, 4, 0.925);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: none;
 }
 
+.signin:hover {
+  background-color: rgb(226, 36, 36);
+  cursor: pointer;
+}
 
-
-/* Dropdown Button */
-.dropbtn {
-    background-color: #3498DB;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  /* Dropdown button on hover & focus */
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #724242;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd}
-  
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display:block;}
+.banner {
+  background-color: rgb(53, 53, 53);
+  position: sticky;
+  width: 100%;
+  height: 100px;
+}

@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com);
 @import url(https://fonts.gstatic.com);
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
-
+@import url(https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Oswald:wght@200;500&display=swap);
 * {
 
     box-sizing: border-box;
@@ -23,12 +23,14 @@ body {
     background-color: rgb(36, 36, 36);
     flex-direction: row;
     align-items: center;
-    padding: 0 18vw;
+    padding: 0 0 0 18.5vw;
+    flex-shrink: 0;
 }
 
 .nav_links{
     list-style: none;
     margin-left: 200px;
+    
 }
 
 .nav_links li {
@@ -45,7 +47,7 @@ body {
 
 .logo {
     height: 11vh;
-    max-height: 70px;
+    max-height: 45px;
 
 }
 
@@ -63,6 +65,7 @@ body {
   padding: 10px 25px;
   border-radius: 5px;
   border: none;
+  
 }
 
 .signin:hover {
@@ -71,8 +74,24 @@ body {
 }
 
 .banner {
+  display: flex;
   background-color: rgb(53, 53, 53);
   position: sticky;
   width: 100%;
-  height: 100px;
+  height: 72px;
+  flex-direction: row;
+  align-items: center;
 }
+
+.stickybartext {
+  padding-left: 18.5vw;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+ {
+  float: left;
+}
+

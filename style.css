@@ -91,7 +91,27 @@ body {
   font-weight: 700;
 }
 
- {
-  float: left;
+.searchbar {
+  margin-left: auto;
+  
+  
+  
 }
 
+.searchbar input {
+  background-color: rgb(39, 39, 39);
+  width: 300px;
+  height: 30px;
+  border: white 1px solid;
+  border-radius: 4px;
+}
+
+.searchbar img {
+  height: 20px;
+}
+
+.tableofcontents img{
+  height: 30px;
+  width: 30px;
+  margin-right: 400px;
+}

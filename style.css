@@ -80,7 +80,7 @@ body {
   height: 72px;
   flex-direction: row;
   align-items: center;
-  padding-right: 20vw;
+  padding-right: 19vw;
 }
 
 .stickybartext {
@@ -134,5 +134,5 @@ body {
   width: 500px;
   margin: auto;
   border: 3px solid #73AD21;
-  
+  word-break: break-all;
 }

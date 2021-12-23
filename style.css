@@ -134,7 +134,22 @@ body {
   width: 41vw;
   margin-left: 20vw;
   padding-top: 2vh;
-  border: 3px solid #73AD21;
   word-break: break-all;
   color: wheat;
+}
+
+.content {
+  color: white;
+  margin-left: 20vw;
+  width: 41vw;
+
+}
+
+
+.contentimages {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  
 }

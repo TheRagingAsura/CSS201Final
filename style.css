@@ -131,8 +131,10 @@ body {
 }
 
 .topheader {
-  width: 500px;
-  margin: auto;
+  width: 41vw;
+  margin-left: 20vw;
+  padding-top: 2vh;
   border: 3px solid #73AD21;
   word-break: break-all;
+  color: wheat;
 }

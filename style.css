@@ -12,6 +12,11 @@
 
 body {
     background-color: rgb(36,36,36);
+    font-family: sans-serif;
+}
+
+.oswaldfont {
+  font-family: 'Oswald', sans-serif;
 }
 
 .container {
@@ -70,7 +75,7 @@ body {
   padding: 10px 25px;
   border-radius: 5px;
   border: none;
-  
+
 }
 
 .signin:hover {
@@ -149,7 +154,8 @@ body {
   color: white;
   margin-left: 20vw;
   width: 41vw;
-
+  line-height: 32px;
+  font-size: 16px;
 }
 
 

@@ -19,6 +19,10 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+.darktext1 {
+  color: gray;
+}
+
 .container {
     display: flex;
     height: 30vw;
@@ -91,12 +95,12 @@ body {
   height: 72px;
   flex-direction: row;
   align-items: center;
-  padding-right: 19vw;
+  padding-right: 17.7vw;
 }
 
 .stickybartext {
   padding-left: 18.5vw;
-  color: white;
+  color: rgb(216, 216, 216);
   font-family: 'Oswald', sans-serif;
   font-size: 27px;
   font-weight: 700;
@@ -147,11 +151,38 @@ body {
   margin-left: 20vw;
   padding-top: 2vh;
   word-break: break-all;
-  color: wheat;
+  color: rgb(216, 216, 216);
+  line-height: 32px;
+  font-size: 14px;
+  position: relative;
 }
 
-.content {
+.inline {
+  display: inline-flex;
+}
+
+.pagetools {
   color: white;
+  background-color: #3a4865;
+  border:1px solid #4e6187;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  height: 40px;
+  width: 180px;
+  padding: 6px 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.whitelinks {
+  color: rgb(224, 224, 224);
+}
+
+
+.content {
+  color: rgb(224, 224, 224);
   margin-left: 20vw;
   width: 41vw;
   line-height: 32px;

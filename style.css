@@ -157,6 +157,10 @@ body {
   position: relative;
 }
 
+.usericon {
+ max-width: 100px;
+}
+
 .inline {
   display: inline-flex;
 }
@@ -175,6 +179,33 @@ body {
   top: 0;
   right: 0;
 }
+
+.pagetools:hover {
+background-color: #4e6187;
+cursor: pointer;
+}
+
+
+.pagetools p {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+
+.pagetools img {
+  position: absolute;
+  top: 25%;
+  right: 5%;
+}
+
+.pagetoolsdropdown {
+
+}
+
+
+
+
+
 
 .whitelinks {
   color: rgb(224, 224, 224);

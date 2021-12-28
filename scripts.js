@@ -11,3 +11,7 @@ function scrollFunction() {
     document.getElementById("navbar").style.top = "-50px";
   }
 }
+
+
+// script for Page tools button on click
+

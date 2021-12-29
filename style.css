@@ -165,22 +165,40 @@ body {
   display: inline-flex;
 }
 
-
-
-
 /* Dropdown Button */
 .dropbtn {
-  background-color: #4e6187;
+  background-color: rgb(58,72,101);
   color: white;
-  padding: 16px;
+  padding: 7px 45px;
+  width: 177px;
   font-size: 16px;
-  border: 1px solid blue;
+  border: 1px solid #47587B;
+  border-radius: 4px;
+  display: flex;
+  min-height: 32px;
 }
+
+/* Text in button */
+.dropbtn span{
+  position:absolute;
+  top: auto;
+  left: 6%;
+}
+
+/* image in button */
+.dropbtn img{
+  height: 25px;
+  position: absolute;
+  top: auto;
+  right: 5%;
+}
+
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: relative;
-  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 0;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -196,7 +214,7 @@ body {
 /* Links inside the dropdown */
 .dropdown-content a {
   color: wheat;
-  padding: 12px 16px;
+  padding: 6px 16px;
   text-decoration: none;
   display: block;
 }
@@ -208,7 +226,19 @@ body {
 .dropdown:active .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #47587B;}
+
+
+
+.open {
+  background-color: red;
+}
+
+
+
+
+
+
 
 
 

@@ -13,17 +13,4 @@ function scrollFunction() {
 }
 
 
-// script for Page tools button on click
-var button = document.getElementById("button");
 
-button.onclick = function(){
-
-  if(button.className == "open"){
-    // change color to default
-    button.className = "";
-  } else {
-    // color to red
-    button.className = "open";
-  }
-
-};

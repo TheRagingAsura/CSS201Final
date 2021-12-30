@@ -228,21 +228,12 @@ body {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #47587B;}
 
-
-
-
-
-
-
-
-
-
-
+/* style for links in white */
 .whitelinks {
   color: rgb(224, 224, 224);
 }
 
-
+/* Container style for content */
 .content {
   color: rgb(224, 224, 224);
   margin-left: 20vw;
@@ -251,7 +242,7 @@ body {
   font-size: 16px;
 }
 
-
+/* Styling for images in content */
 .contentimages {
   display: block;
   margin-left: auto;
@@ -259,3 +250,54 @@ body {
   width: 500px;
   
 }
+
+/* Boss text style */
+.bosstext {
+  color: rgb(136, 1, 1);
+  text-align: center;
+
+}
+
+.footer{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+.bold {
+  font-weight: 700;
+}
+
+.pagebuttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.previouspage{
+background-color: #3A4865;
+height: 60px;
+width: 136px;
+position: relative;
+}
+
+.previouspage a {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+
+
+.nextpage{
+
+}
+
+
+
+

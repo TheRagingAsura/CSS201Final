@@ -287,6 +287,7 @@ body {
 background-color: #3A4865;
 padding: 12px 18px 12px 53px;
 position: relative;
+border: 1px solid #47587B;
 border-radius: 5px;
 }
 
@@ -304,6 +305,7 @@ border-radius: 5px;
   background-color: #3A4865;
   padding: 12px 53px 12px 18px;
   position: relative;
+  border: 1px solid #47587B;
   border-radius: 5px;
   text-align: right;
 }
@@ -317,10 +319,47 @@ border-radius: 5px;
 
 /* Guide review section container styling */
 .guidereview{
-  width: 20%;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+ text-align: center;
+
+}
+
+/* text above review buttons */
+.reviewtext{
+  flex-basis: 100%;
+  color: #6E89B9;
+  font-size: 24px;
+}
+
+/* Direct button container for responses buttons */
+.responsebuttons{
+ width: 100%; 
+}
+/* review yes button styling */
+.reviewyes {
+  color: wheat;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #3A4865;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 18px 40px;
+  border: 1px solid #47587B;
+  border-radius: 10px;
 }
 
 
-
+/* review no buttons styling */
+.reviewno {
+  color: wheat;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #3A4865 ;
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
+  padding: 18px 40px;
+  border: 1px solid #47587B;
+  border-radius: 10px;
+}

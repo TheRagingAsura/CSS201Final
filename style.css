@@ -1,7 +1,10 @@
+/* cSpell:disable */
+
 @import url(https://fonts.googleapis.com);
 @import url(https://fonts.gstatic.com);
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Oswald:wght@200;500&display=swap);
+
 
 * {
     
@@ -15,12 +18,21 @@ body {
     font-family: sans-serif;
 }
 
+/* Generic Styles */
+.bold {
+  font-weight: 700;
+}
+
 .oswaldfont {
   font-family: 'Oswald', sans-serif;
 }
 
 .darktext1 {
   color: gray;
+}
+
+.inline {
+  display: inline-flex;
 }
 
 .container {
@@ -161,9 +173,7 @@ body {
  max-width: 100px;
 }
 
-.inline {
-  display: inline-flex;
-}
+
 
 /* Dropdown Button */
 .dropbtn {
@@ -258,46 +268,59 @@ body {
 
 }
 
+/* New alignment for footer, as Content isn't centered */
 .footer{
   width: 40%;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-
-
-.bold {
-  font-weight: 700;
-}
-
+/* Container for Page selection buttons at bottom of page */
 .pagebuttons{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
+/* Styling for previous page buttons */
 .previouspage{
 background-color: #3A4865;
-height: 60px;
-width: 136px;
+padding: 12px 18px 12px 53px;
 position: relative;
+border-radius: 5px;
 }
 
+
+/* Styling for previous page text in button */
 .previouspage a {
   text-decoration: none;
   color: white;
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  font-size: 13px;
 }
 
 
-
+/* Styling for next page buttons */
 .nextpage{
-
+  background-color: #3A4865;
+  padding: 12px 53px 12px 18px;
+  position: relative;
+  border-radius: 5px;
+  text-align: right;
 }
 
+/* Styling for next page text in button */
+.nextpage a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+/* Guide review section container styling */
+.guidereview{
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+}
 
 
 

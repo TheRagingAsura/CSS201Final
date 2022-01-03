@@ -1,0 +1,16 @@
+/* Generic Styles */
+.bold {
+    font-weight: 700;
+  }
+  
+  .oswaldfont {
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .darktext1 {
+    color: gray;
+  }
+  
+  .inline {
+    display: inline-flex;
+  }

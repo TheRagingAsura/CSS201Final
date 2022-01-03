@@ -18,23 +18,6 @@ body {
     font-family: sans-serif;
 }
 
-/* Generic Styles */
-.bold {
-  font-weight: 700;
-}
-
-.oswaldfont {
-  font-family: 'Oswald', sans-serif;
-}
-
-.darktext1 {
-  color: gray;
-}
-
-.inline {
-  display: inline-flex;
-}
-
 .container {
     display: flex;
     height: 30vw;
@@ -77,11 +60,11 @@ body {
 
   }
 
-  .searchicon {
-    height: 23px;
-    margin-top: 3px;
-    margin-right: 20px;
-  }
+.searchicon {
+  height: 23px;
+  margin-top: 3px;
+  margin-right: 20px;
+}
 
 .signin {
   background-color: rgba(196, 4, 4, 0.925);
@@ -108,6 +91,7 @@ body {
   flex-direction: row;
   align-items: center;
   padding-right: 17.7vw;
+  z-index: 100;
 }
 
 .stickybartext {
@@ -273,13 +257,15 @@ body {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2%;
 }
 
-/* Container for Page selection buttons at bottom of page */
+/* Container for Page selection buttons at bottom of page, spacing for hr */
 .pagebuttons{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 6%;
 }
 
 /* Styling for previous page buttons */
@@ -308,6 +294,7 @@ border-radius: 5px;
   border: 1px solid #47587B;
   border-radius: 5px;
   text-align: right;
+  
 }
 
 /* Styling for next page text in button */
@@ -321,22 +308,25 @@ border-radius: 5px;
 .guidereview{
   display: flex;
   flex-wrap: wrap;
- text-align: center;
-
+  text-align: center;
 }
 
-/* text above review buttons */
+/* text above review buttons, spacing between text and hr*/
 .reviewtext{
   flex-basis: 100%;
   color: #6E89B9;
   font-size: 24px;
+  margin-top: 4%;
+
 }
 
-/* Direct button container for responses buttons */
+/* Direct button container for responses buttons, spacing between buttons and text above */
 .responsebuttons{
- width: 100%; 
+  margin-top: 4%;
+  width: 100%; 
 }
-/* review yes button styling */
+
+/* review yes button styling, has spacing for hr below */
 .reviewyes {
   color: wheat;
   font-size: 18px;
@@ -344,6 +334,7 @@ border-radius: 5px;
   background-color: #3A4865;
   display: inline-block;
   margin-right: 10px;
+  margin-bottom: 4%;
   padding: 18px 40px;
   border: 1px solid #47587B;
   border-radius: 10px;
@@ -363,3 +354,65 @@ border-radius: 5px;
   border: 1px solid #47587B;
   border-radius: 10px;
 }
+
+/* Container for guide info */
+.guideinfo{
+  margin-top: 4%;
+}
+
+/* Tetx above game info */
+.guideinfo p {
+  color: #E1E5EC;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* container for game info. controls main grid as well */
+.gameinfocontainer{
+  color: #E1E5EC;
+  /* border: 0.2px solid rgba(0, 0, 0, 0.288); */
+   border: .2px solid white;
+  border-radius: 20px;
+  margin-top: 4%;
+  display: grid;
+  padding: 20px;
+  gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: ;
+
+
+
+
+}
+
+.gamename{
+
+
+}
+
+.gametile img{
+  height: 150px;
+}
+
+.gamedescription{
+
+}
+
+.gamerating{
+
+}
+
+.gamerating img{
+  height: 60px;
+}
+
+.gamerating p{
+  font-size: 16px;
+}
+
+.devcol1{
+
+}
+
+
+

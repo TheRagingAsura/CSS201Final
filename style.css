@@ -236,6 +236,12 @@ body {
   font-size: 16px;
 }
 
+.content h2 {
+  font-size: 20px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
 /* Styling for images in content */
 .contentimages {
   display: block;
@@ -370,8 +376,7 @@ border-radius: 5px;
 /* container for game info. controls main grid as well */
 .gameinfocontainer{
   color: #E1E5EC;
-  /* border: 0.2px solid rgba(0, 0, 0, 0.288); */
-  border: .2px solid white;
+  border: 0.2px solid rgba(0, 0, 0, 0.288);
   border-radius: 20px;
   margin-top: 4%;
   display: grid;
@@ -425,13 +430,75 @@ border-radius: 5px;
 
 .devcol1{
   padding-left: 30px;
+  font-size: 14px;
 }
 
+.devcol2{
+  font-size: 14px;
+  padding-left: 30px;
+}
 
 /* Spacing for the list in devcol1 and 2*/
 .tenpxpad{
   padding-top: 10px;
 }
 
+/* Ad following the guide info section in footer */
+/* First Ad */
+.AdOne {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
 
+.AdOne img{
+  height: 150px;
+  border-radius: 20%;
 
+}
+
+.AdOneText{
+  margin-left: 40px;
+  color: white;
+  font-size: 24px;
+}
+
+/* Second Ad */
+.AdTwo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.AdTwo img{
+  height: 150px;
+  border-radius: 20%;
+
+}
+
+.AdTwoText{
+  margin-left: 40px;
+  color: white;
+  font-size: 24px;
+}
+
+/* Larger 3rd Ad  */
+
+.AdThree {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.AdThree img{
+  width: 100%;
+
+}
+
+.AdThreeText{
+  color: white;
+  font-size: 24px;

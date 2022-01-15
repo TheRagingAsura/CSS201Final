@@ -504,7 +504,130 @@ border-radius: 5px;
   font-size: 24px;
 }
 
+/* Ad Four */
 
+
+.AdFour {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.AdFour img{
+  height: 200px;
+  border-radius: 20%;
+
+}
+
+.AdFourText{
+  margin-left: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+/* End of Comments */
+
+
+/* Comments section */
+
+.ConverstionHeader{
+  margin-bottom: 20px;
+}
+
+.ConvoHeaderText{
+  color:white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.commentcount{
+  color: #ABABAC;
+  padding-left: 10px;
+}
+
+.ConversationGuidelines{
+  line-height: 2;
+  padding-bottom: 20px;
+}
+
+.redlink {
+  color: rgb(160, 0, 0);
+  text-decoration: underline;
+}
+
+/* Comment Input bar */
+.CommentBar{
+  resize: none;
+  outline: none;
+  width: 100%;
+  height: 50px;
+  background-color: #373E44;
+  border: none;
+  padding-left: 10px;
+  padding-top: 15px;
+  border-radius: 5px;
+}
+
+.CommentBar::placeholder { 
+  color: #ABABAC;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
+
+/* Sorting for comments */
+
+.SortBy{
+  padding-top: 10px;
+  color: gray;
+  font-size: 14px;
+}
+
+.SortBySelector{
+  color: #ABABAC;
+
+}
+
+.Credits{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #A28A63;
+
+}
+
+.PoweredBy{
+  color: #A28A63;
+}
+
+.TermsEtc a{
+  text-decoration: none;
+  color: #A28A63;
+}
+
+.terms:hover, .Privacy:hover, .Feedback:hover{
+  text-decoration: underline;
+  color: rgb(211, 255, 255);
+}
+
+
+
+.FinalFooter{
+  padding-top: 10px;
+  padding-left: 20vw;
+  width: 80vw;
+}
+
+.FinalGrid{
+  display: grid;
+  
+}
 
 
 

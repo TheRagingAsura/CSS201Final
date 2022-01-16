@@ -613,22 +613,91 @@ border-radius: 5px;
 
 .terms:hover, .Privacy:hover, .Feedback:hover{
   text-decoration: underline;
-  color: rgb(211, 255, 255);
+  color: rgb(66, 66, 66);
 }
 
 
 
 .FinalFooter{
-  padding-top: 10px;
+  padding-top: 90px;
   padding-left: 20vw;
   width: 80vw;
 }
 
+
+/* Grid setup at the bottom */
 .FinalGrid{
   display: grid;
-  
+  height: 100px;
+  grid-template-columns: 8% 8% 8% 60% 16%;
+  grid-template-rows: 50% 50%;
 }
 
+.GridLogo {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+  align-self: center;
+}
+
+.GridLogo img{
+  height: 40px;
+}
+
+.GridTitle1{
+  color: white;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  align-self: center;
+  justify-self: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.GridTitle2{
+  color: white;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  align-self: center;
+  justify-self: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.GridGuides {
+  color: white;
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+  align-self: center;
+  padding-left: 20px;
+}
+
+.GridGuides a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.GridGuides a:hover {
+  text-decoration: underline;
+}
+
+.GridDeals {
+  color: white;
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+  align-self: center;
+  padding-left: 20px;
+}
+
+.GridDeals a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.GridDeals a:hover{
+  text-decoration: underline;
+}
 
 
 
